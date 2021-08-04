@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		3831F2BE26BA39B700220372 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3831F2BD26BA39B700220372 /* AppDelegate.swift */; };
 		3831F2C026BA39B700220372 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3831F2BF26BA39B700220372 /* SceneDelegate.swift */; };
-		3831F2C226BA39B700220372 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3831F2C126BA39B700220372 /* ViewController.swift */; };
+		3831F2C226BA39B700220372 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3831F2C126BA39B700220372 /* MainViewController.swift */; };
 		3831F2C526BA39B700220372 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3831F2C326BA39B700220372 /* Main.storyboard */; };
 		3831F2C726BA39B900220372 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3831F2C626BA39B900220372 /* Assets.xcassets */; };
 		3831F2CA26BA39B900220372 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3831F2C826BA39B900220372 /* LaunchScreen.storyboard */; };
+		3831F2D326BA3A2800220372 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 3831F2D226BA3A2800220372 /* .swiftlint.yml */; };
+		3831F2D726BA3AF100220372 /* InputTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3831F2D626BA3AF100220372 /* InputTextViewController.swift */; };
+		3831F2D926BA3B2D00220372 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3831F2D826BA3B2D00220372 /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3831F2BA26BA39B700220372 /* Loco.Kadai15.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Loco.Kadai15.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3831F2BD26BA39B700220372 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3831F2BF26BA39B700220372 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3831F2C126BA39B700220372 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3831F2C126BA39B700220372 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		3831F2C426BA39B700220372 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3831F2C626BA39B900220372 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3831F2C926BA39B900220372 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3831F2CB26BA39B900220372 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3831F2D226BA3A2800220372 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		3831F2D626BA3AF100220372 /* InputTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTextViewController.swift; sourceTree = "<group>"; };
+		3831F2D826BA3B2D00220372 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +46,7 @@
 		3831F2B126BA39B700220372 = {
 			isa = PBXGroup;
 			children = (
+				3831F2D226BA3A2800220372 /* .swiftlint.yml */,
 				3831F2BC26BA39B700220372 /* Loco.Kadai15 */,
 				3831F2BB26BA39B700220372 /* Products */,
 			);
@@ -58,7 +65,9 @@
 			children = (
 				3831F2BD26BA39B700220372 /* AppDelegate.swift */,
 				3831F2BF26BA39B700220372 /* SceneDelegate.swift */,
-				3831F2C126BA39B700220372 /* ViewController.swift */,
+				3831F2D826BA3B2D00220372 /* CustomTableViewCell.swift */,
+				3831F2D626BA3AF100220372 /* InputTextViewController.swift */,
+				3831F2C126BA39B700220372 /* MainViewController.swift */,
 				3831F2C326BA39B700220372 /* Main.storyboard */,
 				3831F2C626BA39B900220372 /* Assets.xcassets */,
 				3831F2C826BA39B900220372 /* LaunchScreen.storyboard */,
@@ -77,6 +86,7 @@
 				3831F2B626BA39B700220372 /* Sources */,
 				3831F2B726BA39B700220372 /* Frameworks */,
 				3831F2B826BA39B700220372 /* Resources */,
+				3831F2D126BA3A0200220372 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -124,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3831F2D326BA3A2800220372 /* .swiftlint.yml in Resources */,
 				3831F2CA26BA39B900220372 /* LaunchScreen.storyboard in Resources */,
 				3831F2C726BA39B900220372 /* Assets.xcassets in Resources */,
 				3831F2C526BA39B700220372 /* Main.storyboard in Resources */,
@@ -132,13 +143,35 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3831F2D126BA3A0200220372 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3831F2B626BA39B700220372 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3831F2C226BA39B700220372 /* ViewController.swift in Sources */,
+				3831F2C226BA39B700220372 /* MainViewController.swift in Sources */,
+				3831F2D926BA3B2D00220372 /* CustomTableViewCell.swift in Sources */,
 				3831F2BE26BA39B700220372 /* AppDelegate.swift in Sources */,
+				3831F2D726BA3AF100220372 /* InputTextViewController.swift in Sources */,
 				3831F2C026BA39B700220372 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

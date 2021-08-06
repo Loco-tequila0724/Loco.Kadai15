@@ -50,7 +50,6 @@ extension MainViewController: UITableViewDelegate, UITableViewDataSource {
         checkItems[indexPath.row].isChecked.toggle()
 
         tableView.reloadRows(at: [indexPath], with: .automatic)
-        tableView.deselectRow(at: indexPath, animated: true)
     }
 }
 
